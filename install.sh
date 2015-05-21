@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 #check dependencies
 if ! ruby -v > /dev/null 2>&1; then
