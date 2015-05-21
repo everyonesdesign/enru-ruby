@@ -1,0 +1,1 @@
+./enru.rb $1 | less -R
