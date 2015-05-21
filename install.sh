@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 #check dependencies
 if ! ruby -v > /dev/null 2>&1; then
@@ -15,7 +15,7 @@ if ! gem spec colorize > /dev/null 2>&1; then
 fi
 
 #move ruby file to lib folder and let execute it
-mkdir /usr/lib/enru
+mkdir /usr/lib/enru -p
 cp ./enru.rb /usr/lib/enru/enru.rb
 chmod +x /usr/lib/enru/enru.rb
 
